@@ -1,0 +1,17 @@
+
+TODO items:
+- Figure out why Arduino keeps dropping out.
+- New electronics box, with E-stop positioned so it is unable to contact walls.
+- Need manual driver practice via lagged webcam (skype?) in real dust.
+
+Fixed:
+- Need full autonomy test runs in dust.
+	-> Many things learned Thursday evening.
+- Camera center is robotX=67cm left of robot centerline.  Take this into account for positioning.
+- Marker center is worldY=-45cm behind the edge of the lunabin.  Take this into account.
+	-> Fixed.
+- Autonomous mining mode notices fake stalls, but keyboard/firmware mining mode doesn't.
+	-> It was electrical interference from lowering the dump very fast.
+- Clone chromebook hard drive to the backup chromebook
+	-> Done.
+
